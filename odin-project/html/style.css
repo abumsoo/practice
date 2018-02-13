@@ -1,0 +1,23 @@
+body {
+    font-size: 14px;
+}
+
+p {
+    color: #280;
+}
+
+h1 {
+    color: #ffc;
+    background-color: #009;
+}
+
+h2 {
+    font-family: Verdana, Arial, serif;
+    text-decoration: overline;
+    text-transform: capitalize;
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+}

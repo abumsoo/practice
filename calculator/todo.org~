@@ -1,0 +1,4 @@
+#+TITLE: Tasks for calculator
+* TODO Handle just the addition
+* TODO Deal with order of operations
+* TODO Handle conversion from input string to numbers

@@ -1,0 +1,6 @@
+#+TITLE: Tasks for calculator
+* DONE Handle just the addition
+* TODO Deal with order of operations
+* TODO Handle conversion from input string to numbers
+* TODO Integrate signed integers
+* TODO Integrate floats

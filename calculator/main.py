@@ -4,11 +4,6 @@ import re
 
 # Simple equation parser
 
-# TODO
-# [ ] Handle just the addition
-# [ ] 
-# [ ] Deal with order of operations
-# [ ] Handle conversion from input string to numbers
 
 # Need to separate the input into individual units
 # i.e. summand, operator, summand, maybe another operator, etc.

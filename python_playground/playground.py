@@ -116,7 +116,7 @@ def extract_unique_content():
             if line not in one_lines:
                 three_file.write(line)
 
-def main():
+def generate_students():
     with open("scores", "w") as f:
         for i in range(100):
             name = ""
@@ -126,8 +126,17 @@ def main():
                     str(random.randrange(101)) + "," +
                     str(random.randrange(101)) + "," +
                     str(random.randrange(101)) + "\n")
-    
 
+def main():
+    with open("scores", "r") as f:
+        lines = f.readlines()
+        lines = [line.split(",") for line in lines]
+        best_score = lines[0][1]
+        for i in range(1,len(lines)):
+            if lines[i][1] > lines[i-1][1]:
+                best_score = lines[i][0]
+
+        print(tobest_score)
 
 if __name__ == "__main__":
     main()

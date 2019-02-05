@@ -5,6 +5,7 @@ import requests
 
 apiSearch = "http://openlibrary.org/search.json?title="
 
+
 def searchBook(title):
     search = apiSearch + title.replace(' ', '+')
     response = requests.get(search)

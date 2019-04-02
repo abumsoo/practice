@@ -1,3 +1,3 @@
-
-// FLAGS
-// -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
+int main(){
+  return 0;
+}

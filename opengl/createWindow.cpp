@@ -41,7 +41,12 @@ int main(int argv, char** argc)
   };
 
   unsigned int VBO;
+  // creates a buffer of size 1 and stores it in the address of VBO
+  // if we wanted more buffer objects then we'd do (I think...)
+  // unsigned int VBO[4];
+  // glGenBuffers(4, VBO);
   glGenBuffers(1, &VBO);
+  // bind VBO to the 
   glBindBuffer(GL_ARRAY_BUFFER, VBO);
   glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 

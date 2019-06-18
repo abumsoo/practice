@@ -1,0 +1,6 @@
+#+TITLE: Learn openGL tutorial
+[https://learnopengl.com/]
+* Introduction
+** Prerequisites
+   Beginner-intermediate C++
+** Structure
